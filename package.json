@@ -1,0 +1,21 @@
+{
+  "name": "kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "order-service": "node order-service/order.service.js",
+    "mailer-service": "node mailer-service/mailer.service.js",
+    "user-service": "node user-service/user.service.js",
+    "ac": "node autocannon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type":"module",
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "express":"^5.1.0",
+    "body-parser":"^2.2.0",
+    "nanoid":"^5.1.5"
+  }
+}
