@@ -18,7 +18,7 @@ Proje dosyalarını kendi bilgisayarınıza indirdikten sonra izlenmesi gereken 
 
 1) Proje dosyalarını çalışmak istediğiniz klasöre taşıyın ve terminal üzerinden bu dizine gidin. Bunun için çalıştığınız işletim sisteminin terminal komutlarını kullanmanız gerekmektedir.
 
-2) Proje dizinine gidin. cd Proje_Klasoru
+2) Proje dizinine gidin. ```cd Proje_Klasoru```
 
 3) ```npm install``` komutu ile package.json içinde tanımlı olan bağımlılıklar yüklenecektir. Kurulum işlemi bittikten sonra ```node_modules``` adında bir klasör oluşacaktır. 
 
