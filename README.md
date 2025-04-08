@@ -20,7 +20,7 @@ Proje dosyalarını kendi bilgisayarınıza indirdikten sonra izlenmesi gereken 
 
 2) Proje dizinine gidin. cd Proje_Klasoru
 
-3) npm install -> Bu komut ile package.json içinde tanımlı olan bağımlılıklar yüklenecektir. Kurulum işlemi bittikten sonra ```node_modules``` adında bir klasör oluşacaktır. 
+3) ```npm install``` komutu ile package.json içinde tanımlı olan bağımlılıklar yüklenecektir. Kurulum işlemi bittikten sonra ```node_modules``` adında bir klasör oluşacaktır. 
 
 4) Artık hazırız. Proje de tanımlı olan her bir servisi terminal üzerinden ayrı ayrı çalıştıracağız.
 
