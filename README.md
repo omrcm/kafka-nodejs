@@ -14,8 +14,7 @@ Kafkanın local ortamda docker üzerinden kurulması için aşağıdaki repoyu i
 
 Proje dosyalarını kendi bilgisayarınıza indirdikten sonra izlenmesi gereken adımlar;
 
-**Warning**  
-!!! Projenin bilgisayarınız da çalışması için nodejs'in kurulu olduğundan emin olun. !!!
+**Warning**  Projenin bilgisayarınız da çalışması için nodejs'in kurulu olduğundan emin olun.
 
 1) Proje dosyalarını çalışmak istediğiniz klasöre taşıyın ve terminal üzerinden bu dizine gidin. Bunun için çalıştığınız işletim sisteminin terminal komutlarını kullanmanız gerekmektedir.
 
