@@ -22,9 +22,11 @@ Projenin bilgisayarınız da çalışması için nodejs'in kurulu olduğundan em
 
 3) ```npm install``` komutu ile package.json içinde tanımlı olan bağımlılıklar yüklenecektir. Kurulum işlemi bittikten sonra ```node_modules``` adında bir klasör oluşacaktır. 
 
-4) Artık hazırız. Proje de tanımlı olan her bir servisi terminal üzerinden ayrı ayrı çalıştıracağız.
+4) Artık hazırız. Proje de tanımlı olan her bir servisi terminal üzerinden ayrı ayrı çalıştıracağız. Sadece bir kere ```npm run``` diyerek ```init.js```çalıştırılması yeterli olacaktır. Bu sayede Kafka tarafında oluşturulması gereken topicler dosya içerisinde belirtildiği gibi oluşturulacaktır. Daha sonra bu topiclere mesaj gönderip okuma işlemlerini yapacağız.
 
-Projede toplamda 3 ana servisimiz bulunmaktadır. Bunlar;
+Oluşturduğumuz topiclere üye ( subscribe) olan ve bu topiclerden mesajları okuyan ( consume ) toplamda 3 ana servisimiz bulunmaktadır. 
+
+Bunlar;
 
 1) Order Service
 2) User Service
@@ -33,3 +35,5 @@ Projede toplamda 3 ana servisimiz bulunmaktadır. Bunlar;
 Yukarıda bahsei geçen dosyalarda bir eticaret sistemin de olması gereken iş süreçleri bulunmamaktadır. Amacımız Kafka'nın yapabildiklerini görmek olduğu için sadece bu kısımlara odaklanılmıştır. 
 
 ### Order Service
+
+
