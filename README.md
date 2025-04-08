@@ -8,7 +8,18 @@ Proje içinde var olan dosyaların açıklamaları ve Kafka'nın kurulumu ile il
 
 Kafkanın local ortamda docker üzerinden kurulması için aşağıdaki repoyu inceleyebilirsiniz.
 
-## Proje Dosyaları
+## Proje Dosyaları ve Çalıştırılması
+
+### Projenin Çalıştırılması
+
+Proje dosyalarını kendi bilgisayarınıza indirdikten sonra izlenmesi gereken adımlar;
+
+[!IMPORTANT]
+Projenin bilgisayarınız da çalışması için nodejs'in kurulu olduğundan emin olun. 
+
+1) Proje dosyalarını çalışmak istediğiniz klasöre taşıyın ve terminal üzerinden bu dizine gidin. Bunun için çalıştığınız işletim sisteminin terminal komutlarını kullanmanız gerekmektedir.
+
+2) 
 
 Projede toplamda 3 ana servisimiz bulunmaktadır. Bunlar;
 
